@@ -20,8 +20,8 @@ def check_number_not_divisible_by():
     print(','.join(str(i) for i in l))
 
 if __name__ == "__main__":
-    #create_final_list_with_two_list()
-    #check_number_not_divisible_by()
+    # create_final_list_with_two_list()
+    check_number_not_divisible_by()
 
     # list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     # print(list1)

@@ -26,12 +26,18 @@ def find_largest_in_row_smallest_in_column_in_matrix(matrix):
     return -1
 
 if __name__ =="__main__":
-    row_count= int(input().strip())
-    col_count= int(input().strip())
+    row_count= int(input())
+    col_count= int(input())
     matrix=[]
     for i in range(row_count):
-        iterator = list(map(int, input().rstrip().split()))
-        matrix.append(iterator)
+        a = []
+        for j in range(col_count):
+            a.append(int(input()))
+        matrix.append(a)
+
+    # for i in range(row_count):
+    #     iterator = list(map(int, input().rstrip().split()))
+    #     matrix.append(iterator)
     result=find_largest_in_row_smallest_in_column_in_matrix(matrix)
     print(result)
 

@@ -1,5 +1,5 @@
 def main():
-    str1 = "1224366096156"
+    str1 = "12243660"
     is_sum_string=False
     for i in range(1, 5):
         list = []

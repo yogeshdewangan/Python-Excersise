@@ -6,4 +6,4 @@ print(l1)    #this will print ['10', '2', '4', '5'], it will sort the list based
 
 l1= [int(i) for i in l1]     # this will convert all elements to int first
 l1.sort()       # and then this will sort the list
-print(l1)       #
+print(l1)       # [2, 4, 5, 10]

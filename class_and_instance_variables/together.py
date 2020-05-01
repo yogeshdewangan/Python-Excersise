@@ -1,3 +1,4 @@
+
 class Shark:
     anymal_type = "Fish"
     location = "Sea"
@@ -7,6 +8,7 @@ class Shark:
         self.age = age
 
     def set_followers(self, followers):
+        from locale import str
         print("This user has " + str(followers) + " followers")
 
 

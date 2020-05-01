@@ -27,7 +27,7 @@ example.instance_method()
 print(example.age)   # instance variable can be accessed using object
 print(example.var1)  # class variable also can be accessed using object
 
-#Example.instance_method()  # instance method cannot be called using Class name
+Example.instance_method()  # instance method cannot be called using Class name
 Example.static_method()
 Example.class_method()  # class methods can be called directly by class name, and by object as well
 example.class_method()

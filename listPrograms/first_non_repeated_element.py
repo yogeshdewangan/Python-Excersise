@@ -1,13 +1,12 @@
 def first_non_repeated_element(array):
-    duplicate_flag=False
-    for i in range(0, len(array)):
-        count=1
-        for j in range(0, len(array)):
+    for i in range(len(array)):
+        count=0
+        for j in range(len(array)):
             if array[i]==array[j]:
                 count+=1
 
 
-        if count<=2:
+        if count<=1:
             return array[i]
 
 

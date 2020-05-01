@@ -1,4 +1,4 @@
-my_array = [1,1,2,2,2,3,3,3,3,3,3,3,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+my_array = [1,1,2,2,2,3,5,3,3,1,3,3,3,3,4,4,5,5,5,5,5,5,5,5,5,5]
 
 def find_element_max_occurance(my_array):
     count=1
@@ -29,5 +29,8 @@ def find_element_occurances_using_dict(array):
             dict[char]=1
 
     print(dict)
+    max_key = max(dict, key=dict.get)
+    print(max_key)
+    print(dict[max_key])
 
 find_element_occurances_using_dict(my_array)

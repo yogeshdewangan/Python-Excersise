@@ -8,7 +8,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def print(self):
+    def print_it(self):
         value= self.head
         while value is not None:
             print(value.data)
@@ -22,11 +22,12 @@ class LinkedList:
     def insert_at_end(self, node):
         next_node= self.head
         while True:
-            next_node=next_node.next
             if next_node.next is None:
                 next_node.next= node
                 print("Inserted at the end: " + str(node.data))
                 return
+            else:
+                next_node=next_node.next
 
     def insert_after_a_node(self, node_data, new_node):
         next_node = self.head
@@ -67,17 +68,17 @@ node2= Node(2)
 node1.next = node2
 node3= Node(3)
 node2.next = node3
-linked_list.print()
+linked_list.print_it()
 linked_list.insert_at_first(Node(0))
-linked_list.print()
+linked_list.print_it()
 linked_list.insert_at_end(Node(4))
-linked_list.print()
+linked_list.print_it()
 linked_list.insert_after_a_node(3, Node(5))
-linked_list.print()
+linked_list.print_it()
 linked_list.remove(5)
-linked_list.print()
+linked_list.print_it()
 linked_list.remove_from_end()
-linked_list.print()
+linked_list.print_it()
 
 
 

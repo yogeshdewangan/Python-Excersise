@@ -1,8 +1,8 @@
 
-from abc import ABC, abstractmethod
+from abc import ABCMeta, abstractmethod
 
 
-class A(ABC):
+class A(metaclass=ABCMeta):
 
     @abstractmethod
     def method1(self, name):
@@ -20,3 +20,4 @@ class B(A):
 
 b = B()
 b.method3()
+b.method1("yogesh")

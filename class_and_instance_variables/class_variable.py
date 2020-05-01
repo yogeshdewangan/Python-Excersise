@@ -16,8 +16,9 @@ print(shark.animal_type)
 #As animal_type is class variable and internally its static, we can use it with Class name
 print(Shark.animal_type)
 
+shark1= Shark()
 #Change the value, new object will have sea fish value as its static variable and can be changed, And it will refect to all object of the class
 Shark.animal_type="Sea Fish"
-shark1= Shark()
+
 print(shark1.animal_type)
 
