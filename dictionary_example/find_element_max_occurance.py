@@ -1,22 +1,5 @@
 my_array = [1,1,2,2,2,3,5,3,3,1,3,3,3,3,4,4,5,5,5,5,5,5,5,5,5,5]
 
-def find_element_max_occurance(my_array):
-    count=1
-    max=1
-    element= my_array[0]
-    for i in range(1, len(my_array)):
-        if my_array[i]==element:
-            count+=1
-            if count>max:
-                max=count
-                max_occrurance_element= element
-        else:
-            element= my_array[i]
-            count=1
-    print(max_occrurance_element, max)
-
-find_element_max_occurance(my_array)
-
 
 #using dictionary
 

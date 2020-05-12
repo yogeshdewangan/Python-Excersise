@@ -4,9 +4,12 @@ list2 = [2, 3, 4, 5, 1]
 list1_start = 0
 list2_start = 0
 identical = True
+
+# find the index of first element of list1 in list2
 for i in range(len(list2)):
     if list1[list1_start] == list2[i]:
         list2_start = i
+        break
 
 while list1_start < len(list1):
 

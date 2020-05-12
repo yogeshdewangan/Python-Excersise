@@ -9,10 +9,10 @@ class LinkedList:
         self.head = None
 
     def print_it(self):
-        value= self.head
-        while value is not None:
-            print(value.data)
-            value=value.next
+        node= self.head
+        while node is not None:
+            print(node.data)
+            node=node.next
 
     def insert_at_first(self, node):
         node.next=self.head

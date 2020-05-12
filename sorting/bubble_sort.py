@@ -1,5 +1,5 @@
 def bubblesort(list):
-    for i in range(len(list) - 1):
+    for i in range(len(list)):
         for j in range(len(list) -1 ):
             if list[j] > list[j+1]:
                 #another way of swapping

@@ -1,15 +1,8 @@
-# import inheritance.global_variable
-#
-# print(inheritance.global_variable.var)
-#
-# inheritance.global_variable.var = 200
-#
-# print(inheritance.global_variable.var)
-#
+
 
 import array
 
-arr=array.array('i', [1,2,3, 2])
+arr = array.array('i', [1, 2, 3, 2])
 
 print(arr)
 
@@ -19,8 +12,7 @@ for i in range(len(arr)):
 arr.append(5)
 print(arr)
 
-#lambda
+# lambda
 
-a= lambda x,y : x+y
-print(a(2,3))
-
+a = lambda x, y: x + y
+print(a(2, 3))

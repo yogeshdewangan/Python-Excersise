@@ -1,12 +1,15 @@
 
-def count_char_in_string():
-    str="yogeshkumardewangan"
-    count_dict={}
+def another_way():
+    str= "yogeshkumardewangan"
+    dict ={}
+
     for char in str:
-        count =str.count(char)
-        count_dict[char]=count
-    print(count_dict)
+        if char in dict.keys():
+            dict[char]+=1
+        else:
+            dict[char]=1
+    print dict
 
 
 if __name__ == "__main__":
-    count_char_in_string()
+    another_way()

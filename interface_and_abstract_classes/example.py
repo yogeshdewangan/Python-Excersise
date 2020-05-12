@@ -2,7 +2,8 @@
 from abc import ABCMeta, abstractmethod
 
 
-class A(metaclass=ABCMeta):
+class A(object):
+    __metaclass__ = ABCMeta
 
     @abstractmethod
     def method1(self, name):
@@ -12,6 +13,7 @@ class A(metaclass=ABCMeta):
         print("method2")
 
 class B(A):
+
     def method3(self):
         self.method2()
 

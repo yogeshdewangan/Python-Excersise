@@ -1,5 +1,5 @@
 # instance variable values will be different for each instances
-# instance variables are defined and decleard inside constructor
+# instance variables are defined and declared inside constructor
 
 class Shark:
     def __init__(self, name, age):
