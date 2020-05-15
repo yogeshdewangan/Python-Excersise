@@ -5,6 +5,9 @@ list1_start = 0
 list2_start = 0
 identical = True
 
+if len(list1) != len(list2):
+    print "Not identical"
+
 # find the index of first element of list1 in list2
 for i in range(len(list2)):
     if list1[list1_start] == list2[i]:

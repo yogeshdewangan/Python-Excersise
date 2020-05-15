@@ -22,6 +22,6 @@ def another_way(list):
     print("There are no duplicate")
 
 
-my_array = [2, 6, 2, 1, 7, 9, 4]
+my_array = [2, 6, 1, 7, 9, 4]
 check_duplicate_in_sorted_array(my_array)
 another_way(my_array)
