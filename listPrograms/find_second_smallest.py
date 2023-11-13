@@ -15,6 +15,6 @@ for i in range(1, len(list)):
         second_smallest = list[i]
 
 
-print second_smallest
+print (second_smallest)
 
 

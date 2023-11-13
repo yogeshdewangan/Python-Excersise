@@ -9,7 +9,6 @@ list = ['abc','aba','xcv','1921','a']
 count =0
 
 for item in list:
-    if len(item)>0 and item[0] == item[len(item)-1]:
-        count+=1
+    if len(item)>2 and item[0] == item[len(item)-1]:
+        print(item)
 
-print(count)

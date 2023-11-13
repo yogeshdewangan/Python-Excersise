@@ -6,7 +6,7 @@ list2_start = 0
 identical = True
 
 if len(list1) != len(list2):
-    print "Not identical"
+    print("Not identical")
 
 # find the index of first element of list1 in list2
 for i in range(len(list2)):
@@ -25,18 +25,21 @@ while list1_start < len(list1):
     list1_start += 1
     list2_start += 1
 
-print identical
+print(identical)
 
 
 # Another way
 list1 = [1, 2, 3, 4, 5]
 list2 = [2, 3, 4, 5, 1]
+list3 = list2*2
+print(list3)
+print(''.join(map(str, list2 *2)))
 
 s= ''.join(map(str, list1))
 s1= ''.join(map(str, list2 *2))
 
 if ''.join(map(str, list1)) in ''.join(map(str, list2 *2)):
-    print "identical"
+    print("identical")
 else:
-    print "not identical"
+    print("not identical")
 

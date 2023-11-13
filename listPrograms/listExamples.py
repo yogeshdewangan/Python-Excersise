@@ -10,7 +10,8 @@ def create_final_list_with_two_list():
     list3.extend(list2[0::2])
     print("Final List - " + str(list3))
 
-#Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
+
+# Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
 def check_number_not_divisible_by():
     l = []
     for i in range(2000, 3201):
@@ -18,6 +19,7 @@ def check_number_not_divisible_by():
             l.append(str(i))
 
     print(','.join(str(i) for i in l))
+
 
 if __name__ == "__main__":
     # create_final_list_with_two_list()

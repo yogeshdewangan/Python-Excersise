@@ -6,4 +6,4 @@ new_str =""
 for word in list:
     new_str=" "+ word+new_str
 
-print new_str
+print (new_str)

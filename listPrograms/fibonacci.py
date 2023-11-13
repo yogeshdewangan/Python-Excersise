@@ -7,6 +7,6 @@ def fibo(n):
 
 if __name__ == "__main__":
 
-    n =5
+    n =10
     for i in range(5):
         print(fibo(i))

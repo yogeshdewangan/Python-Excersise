@@ -10,7 +10,7 @@ for j in range(rotation):
             list[i] = temp
             break
         list[i]= list[i+1]
-#print list
+print (list)
 
 
 #================================================================
@@ -18,7 +18,7 @@ for j in range(rotation):
 list1 = [3, 2, 5, 1, 8, 7]
 
 rotation = 3
-print "oritinal list"+ str(list1)
+print ("oritinal list"+ str(list1))
 
 for j in range(rotation):
     temp = list1[len(list1)-1]
@@ -28,7 +28,7 @@ for j in range(rotation):
         list1[i]= list1[i-1]
     list1[0]=temp
 
-print list1
+print (list1)
 
 
 

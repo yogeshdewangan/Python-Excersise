@@ -14,7 +14,7 @@ class MyClass:
 
     @staticmethod
     def staticmethod():
-        return 'static method called',
+        return 'static method called'
 
 
 print MyClass.name

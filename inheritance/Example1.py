@@ -14,14 +14,15 @@ class B:
     def getName(self):
         return self.name
 
-class C(A, B):
-    pass
-    # def __init__(self):
-    #     A.__init__(self)
-    #     B.__init__(self)
-    #
-    # def getName(self):
-    #     return self.name
+class C(B, A):
+    # pass
+    def __init__(self):
+        B.__init__(self)
+        A.__init__(self)
+
+
+    def getName(self):
+        return self.name
 
 C1 = C()
 print(C1.getName())

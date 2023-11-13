@@ -13,8 +13,8 @@ lst =[1,2,3,4]
 
 import itertools
 
-print len(list(itertools.permutations(lst)))
-print list(itertools.permutations(lst))
+print (len(list(itertools.permutations(lst))))
+print (list(itertools.permutations(lst)))
 
 
 

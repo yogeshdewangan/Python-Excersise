@@ -2,6 +2,8 @@
 python 3.6 new feature
 """
 
+# A python class that acts like dict
+
 class Vehical:
     kind = "car"
 

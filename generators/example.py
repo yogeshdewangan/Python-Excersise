@@ -7,10 +7,10 @@ def generator_fun(n):
         number += 1
 
 
-g=  generator_fun(10)
+g=  generator_fun(22)
 
-print next(g)
+print (next(g))
 
-print next(g)
-print next(g)
-print next(g)
+print (next(g))
+print (next(g))
+print (next(g))
