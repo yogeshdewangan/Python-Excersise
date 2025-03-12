@@ -20,19 +20,19 @@ class Tree:
 
     def __add(self, value, node):
         if value < node.value:
-            if node.left != None:
+            if node.left is not None:
                 self.__add(value, node.left)
             else:
                 node.left = Node(value)
 
         else:
-            if node.right != None:
+            if node.right is not None:
                 self.__add(value, node.right)
             else:
                 node.right = Node(value)
 
     def find(self, value):
-        if self.root != None:
+        if self.root is not None:
             self.__find(value, self.root)
         else:
             return None
@@ -46,18 +46,17 @@ class Tree:
             self.__find(value, node.right)
 
     def delete_tree(self):
-        self.root=None
+        self.root = None
 
     def print_tree(self):
-        if self.root!=None:
+        if self.root is not None:
             self.__print_tree(self.root)
 
     def __print_tree(self, Node):
-        if Node!=None:
+        if Node is not None:
             self.__print_tree(Node.left)
             print(Node.value)
             self.__print_tree(Node.right)
-
 
 
 tree = Tree()
@@ -67,4 +66,3 @@ tree.add(0)
 tree.add(8)
 tree.add(2)
 tree.print_tree()
-

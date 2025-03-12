@@ -1,5 +1,5 @@
 
-def generator_fun(n):
+def generator_fun():
 
     number = 0
     while number< 20:
@@ -7,7 +7,7 @@ def generator_fun(n):
         number += 1
 
 
-g=  generator_fun(22)
+g=  generator_fun()
 
 print (next(g))
 

@@ -8,7 +8,7 @@ def another_way():
             dict[char]+=1
         else:
             dict[char]=1
-    print dict
+    print(dict)
 
 
 if __name__ == "__main__":

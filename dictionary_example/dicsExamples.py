@@ -6,7 +6,7 @@ def main():
     d= {}
     for i in range(1, num+1):
         d[i]=i*i
-    print d
+    print (d)
 
 if __name__=="__main__":
     main()

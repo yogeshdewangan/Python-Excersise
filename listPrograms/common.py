@@ -19,4 +19,4 @@ def count_char(s1):
     return mydict
 
 
-print(solution("aabcc", "adcaa"))
+print(solution("aabcc", "fdcaa"))
